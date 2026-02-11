@@ -1,0 +1,40 @@
+body {
+    background-color: #303030;
+    position: relative;
+    top: 80px; /* buffer between head-nav & content */
+}
+
+.head-nav {
+    background-color: #222222;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.head-btn {
+    height: 40px;
+    width: auto;
+    background-color: #3a3b3c;
+    stroke: #ccc;
+    stroke-width: 2px;
+    color: #fff;
+}
+
+.head-ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+p, b, h1, a, ul {
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
